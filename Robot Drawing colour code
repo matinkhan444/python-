@@ -1,7 +1,7 @@
 from turtle import *
 
 hideturtle()
-
+speed(100)
 pensize(5)
 
 # Draw head
