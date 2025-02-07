@@ -1,7 +1,6 @@
 from turtle import *
 
-hideturtle()
-speed(100)
+speed(10)
 pensize(5)
 
 # Draw head
@@ -180,3 +179,5 @@ forward(30)
 left(35)
 forward(30)
 end_fill()
+
+hideturtle()
