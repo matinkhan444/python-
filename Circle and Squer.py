@@ -1,8 +1,10 @@
 from turtle import *
 
-drawing=input('What are you draw:')
+print('1.circle')
+print('2.squer')
+drawing=int(input('What are you draw:'))
 
-if(drawing=='circle'):
+if(drawing==1):
     ## all input
     radius=int(input('Enter Radius:'))
     fillcolur=input('Enter Fill Colur:')
@@ -15,7 +17,7 @@ if(drawing=='circle'):
     end_fill()
     
 
-elif(drawing=='squer'):
+elif(drawing==2):
     pixle=int(input('Enter Your pixle:'))
     side=int(input('Enter Your side:'))
     angle=360/side
@@ -32,7 +34,5 @@ elif(drawing=='squer'):
 
     
 else:
-    print("eror")
-
-
+    print("eorr")
 
